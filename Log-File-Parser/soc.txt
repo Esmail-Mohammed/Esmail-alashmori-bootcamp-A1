@@ -1,0 +1,10 @@
+INFO: User admin logged in successfully
+WARNING: Multiple login attempts detected
+ERROR: Database connection failed
+INFO: User guest accessed the system
+FAILED: Login attempt from 192.168.1.10
+INFO: System started successfully
+FAILED: Login attempt from 192.168.1.15
+404: Requested page not found
+INFO: User admin logged out
+FAILED: Unauthorized login attempt
