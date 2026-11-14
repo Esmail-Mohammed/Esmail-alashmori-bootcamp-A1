@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOM XSS Protection</title>
+</head>
+<body>
+
+<input id="userInput" type="text" placeholder="Enter text or HTML">
+<button id="unsafeButton">Show unsafely</button>
+<button id="safeButton">Show safely</button>
+<div id="output"></div>
+<script>
+const userInput = document.getElementById("userInput");
+const output = document.getElementById("output");
+
+document.getElementById("unsafeButton").addEventListener("click", function () {
+    output.innerHTML = userInput.value;
+});
+
+document.getElementById("safeButton").addEventListener("click", function () {
+    output.textContent = userInput.value;
+});
+</script>
+</body>
+</html>
+
