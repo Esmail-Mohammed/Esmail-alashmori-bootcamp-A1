@@ -1,0 +1,5 @@
+192.168.1.10 - - [14/Nov/2026:10:15:20] "GET /index.html HTTP/1.1" 200
+192.168.1.15 - - [14/Nov/2026:10:16:10] "GET /search?q=UNION SELECT username,password HTTP/1.1" 200
+10.0.0.5 - - [14/Nov/2026:10:17:30] "GET /../../etc/passwd HTTP/1.1" 404
+192.168.1.20 - - [14/Nov/2026:10:18:40] "GET /login?user=admin OR 1=1 HTTP/1.1" 200
+192.168.1.25 - - [14/Nov/2026:10:19:50] "GET /about.html HTTP/1.1" 200
